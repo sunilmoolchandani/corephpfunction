@@ -23,6 +23,7 @@ else{
     echo "2";
 }
 $query=mysqli_query($connect,$queryy);
+// don't know it insert only int value
 if($query)
 {
     echo "suc";
